@@ -11,7 +11,7 @@ def line(current_line)
     position_in_line += " " 
   end
   end
-end
+
   
   puts position_in_line
   else
