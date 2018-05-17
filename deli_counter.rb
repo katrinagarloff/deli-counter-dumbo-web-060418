@@ -5,8 +5,8 @@ def line(current_line)
     current_line.each_with_index do |name, position|
     position_in_line += "#{position+1}. #{name} "
   end
+  puts position_in_line
   else
     puts "The line is currently empty."
 end
-puts position_in_line
 end
