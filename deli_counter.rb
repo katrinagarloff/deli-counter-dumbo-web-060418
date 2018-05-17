@@ -11,10 +11,15 @@ def line(current_line)
     position_in_line += " " 
   end
   end
-
   
   puts position_in_line
+  
   else
     puts "The line is currently empty."
 end
+end
+
+def take_a_number(current_line, name)
+  
+  
 end
