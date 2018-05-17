@@ -23,3 +23,11 @@ def take_a_number(current_line, name)
   current_line.push(name)
   puts "Welcome, #{name}. You are number #{current_line.index(name)+1} in line."
 end
+
+def now_serving(current_line)
+  if current_line.length > 0
+  puts "Currently serving #{current_line.shift()}"
+else
+  puts "There is nobody waiting to be served!"
+end
+end
