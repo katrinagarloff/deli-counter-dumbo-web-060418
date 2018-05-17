@@ -21,4 +21,5 @@ end
 
 def take_a_number(current_line, name)
   current_line.push(name)
+  puts line
 end
