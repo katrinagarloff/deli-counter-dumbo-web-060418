@@ -4,6 +4,7 @@ def line(current_line)
     current_line.each_with_index |name, position|
     puts name
     puts position+1
+  end
   else
     puts "The line is currently empty."
   end
